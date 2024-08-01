@@ -167,9 +167,11 @@ if (process.argv[2] === "--latest") {
   runPromise(
     new Promise((resolve) => {
       getStream$()
+        // @ts-expect-error - no types
         .pipe(take(1))
         .subscribe({
           next(val) {
+            // @ts-expect-error - no types
             resolve(getFeed(val.url));
           },
           complete() {

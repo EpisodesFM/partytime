@@ -1,11 +1,11 @@
 {
-  "name": "podcast-partytime",
-  "version": "4.8.0",
+  "name": "@episodesfm/partytime",
+  "version": "4.8.1",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "license": "MIT",
   "repository": {
-    "url": "https://github.com/RyanHirsch/partytime"
+    "url": "https://github.com/EpisodesFM/partytime.git"
   },
   "keywords": [
     "podcasting20",
