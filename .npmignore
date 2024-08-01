@@ -12,10 +12,13 @@ scripts
 .gitignore
 .lintstagedrc
 .nvmrc
+.npmrc
 .prettierrc
 Dockerfile
 jest.config.js
 tsconfig.*
 yarn-error.log
 yarn.lock
+.yarn/cache
+.yarn/install-state.gz
 __test__
