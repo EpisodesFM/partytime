@@ -707,7 +707,6 @@ __metadata:
     "@types/ramda": ^0.27.39
     "@typescript-eslint/eslint-plugin": ^4.30.0
     "@typescript-eslint/parser": ^4.30.0
-    dotenv: ^10.0.0
     esbuild: ^0.12.24
     esbuild-runner: ^2.2.1
     eslint: ^7.21.0

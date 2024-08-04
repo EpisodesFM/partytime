@@ -1,6 +1,6 @@
 {
   "name": "@episodesfm/partytime",
-  "version": "4.8.3",
+  "version": "4.8.4",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "license": "MIT",
@@ -67,7 +67,6 @@
     "typescript": "^5.1.6"
   },
   "dependencies": {
-    "dotenv": "^10.0.0",
     "fast-xml-parser": "^3.18.0",
     "he": "^1.2.0",
     "node-fetch": "^2.6.1",
