@@ -22,9 +22,9 @@ import pt from "podcast-partytime";
 pt.checkFeedByUri("https://www.spreaker.com/show/3128218/episodes/feed").then(console.log);
 
 fetch("http://mp3s.nashownotes.com/pc20rss.xml", {
-   headers: {
+  headers: {
     "user-agent": "partytime/example",
-    }
+  },
 })
   .then((resp) => resp.text())
   .then((xml) =>
@@ -38,9 +38,9 @@ fetch("http://mp3s.nashownotes.com/pc20rss.xml", {
 
 // Parse Feed
 fetch("http://mp3s.nashownotes.com/pc20rss.xml", {
-   headers: {
+  headers: {
     "user-agent": "partytime/example",
-    }
+  },
 })
   .then((resp) => resp.text())
   .then((xml) => console.log(pt.parseFeed(xml)));
@@ -95,3 +95,16 @@ The sample feeds below were chosen for their varied nature. Including things lik
 ## Development
 
 Update dependencies (person enum and valid license list) via `yarn deps` or `npm run deps`.
+
+## Deploy To EFM
+
+```
+npm publish --registry=https://npm.pkg.github.com
+```
+
+or in the `.npmrc`
+
+```
+//npm.pkg.github.com/:_authToken=<GITHUB_TOKEN>
+@episodesfm:registry=https://npm.pkg.github.com
+```
