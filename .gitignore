@@ -121,3 +121,4 @@ src/parser/__test__/fixtures/podcastindex_feeds.db
 raw/
 
 .npmrc
+.DS_Store
